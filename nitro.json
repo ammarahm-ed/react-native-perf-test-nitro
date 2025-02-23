@@ -1,0 +1,17 @@
+{
+  "cxxNamespace": ["nitroperf"],
+  "ios": {
+    "iosModuleName": "NitroPerf"
+  },
+  "android": {
+    "androidNamespace": ["nitroperf"],
+    "androidCxxLibName": "nitroperf"
+  },
+  "autolinking": {
+    "NitroPerf": {
+      "swift": "NitroPerf",
+      "kotlin": "NitroPerf"
+    }
+  },
+  "ignorePaths": ["node_modules"]
+}
